@@ -1,11 +1,11 @@
+import Home from "./components/Home";
+
 function App() {
-
-
   return (
     <div>
-      <h1 className="text-2xl py-2">Hello world</h1>
+      <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
